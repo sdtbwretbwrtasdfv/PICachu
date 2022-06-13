@@ -46,7 +46,7 @@ int main(){
 (#node_1㉿#Usaaar)-> echo "msvcrt.dll->printf<-INT<<(LPCSTR, ...)" >> winapis.txt 
 (#node_1㉿#Usaaar)-> python3 scripts/str2chars.py 'Hello world!'
 char msg[] = {'H','e','l','l','o',' ','w','o','r','l','d','!', 0x00};
-(#node_1㉿#Usaaar)-> cat src_implant/main.h 
+(#node_1㉿#Usaaar)-> cat src_mainpic/main.h 
 int Mmain(API Api, LPCWSTR PasswdFromExecute){
     char msg[] = {'H','e','l','l','o',' ','w','o','r','l','d','!', 0x00};
     Api._printf(msg);
@@ -59,9 +59,9 @@ int Mmain(API Api, LPCWSTR PasswdFromExecute){
 	[*]Build ApiResolve x64
 	[*]Build ApiResolve x86
 	[*]Build PIC for arch: x64
-	[*]Build implant object
+	[*]Build mainpic object
 	[*]Build PIC for arch: x86
-	[*]Build implant object
+	[*]Build mainpic object
 	[*]Compiling loader object arch: x64
 	[*]Compiling loader object arch: x86
 (#node_1㉿#Usaaar)-> ls -lh build/loader_x64.exe | awk '{print  $5}'    
