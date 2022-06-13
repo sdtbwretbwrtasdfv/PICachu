@@ -1,0 +1,4 @@
+kernel32.dll->LoadLibraryA<-HMODULE<<(LPCSTR)
+kernel32.dll->VirtualProtect<-BOOL<<(LPVOID, SIZE_T, DWORD, PDWORD)
+Advapi32.dll->RevertToSelf<-BOOL<<()
+msvcrt.dll->printf<-INT<<(LPCSTR, ...)
