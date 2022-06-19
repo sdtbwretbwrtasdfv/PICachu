@@ -16,7 +16,6 @@ Actually with this you can only resolv functions from:
 - kernel32.dll
 - advapi32.dll
 - msvcrt.dll
-- ntdll.dll
 - user32.dll
 - winhttp.dll
 - wininet.dll
